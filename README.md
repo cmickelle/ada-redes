@@ -1,12 +1,43 @@
-# Final project of Network module of Ada-Tech DevOps class.
-The objective of the project is to make an computer in network A connect with a webserver in network B. 
+# Network Module Final Project of Ada-Tech DevOps Class
 
-Clone the repository and open with Cisco Packet Tracer the "ProjetoChristopherMickelle.pkt" archive.
-This project have two connected networks. Network A in the left and B in the right. Connected by one router.
+This repository contains the final project for the Network module of the Ada-Tech DevOps class, aiming to establish connectivity between a computer in Network A and a web server in Network B.
 
+## Setup
 
--With all connections green open a network A computer 
--Go to Desktop page and open Web Browser
--Type "adawebservice" in address bar
+1. Clone the repository:
 
-This will open the cisco package tracer welcome home who is in network B. This can be tested with a ping command in command prompt too.
+    ```bash
+    git clone https://github.com/your-username/project-repo.git
+    ```
+
+2. Open "ProjetoChristopherMickelle.pkt" using Cisco Packet Tracer.
+
+## Project Overview
+
+- Two connected networks (A on the left, B on the right) linked by a router.
+  
+## Connectivity Steps
+
+1. Ensure all connections are green in Cisco Packet Tracer.
+
+2. Open a computer in Network A:
+   - Navigate to Desktop.
+   - Open the Web Browser.
+  
+3. In the Web Browser, type:
+
+    ```
+    adawebservice
+    ```
+
+4. This opens the Cisco Packet Tracer welcome page.
+
+## Additional Testing
+
+- Verify connectivity using the command prompt:
+
+    ```bash
+    ping adawebservice
+    ```
+
+Feel free to explore and modify the project. For issues or questions contact Christopher Mickelle.
